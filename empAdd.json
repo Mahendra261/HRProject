@@ -1,0 +1,7 @@
+[
+  {"empid": 908789,
+    "addressType": "Permanent", "startDate": "11-OCT-2019", "street": "1st Street", "postalCode": 500084, "city": "Hyderabad"},
+  {"empid": 908790, "addressType": "Home", "startDate": "26-MAR-2016", "street": "1st Street", "postalCode": 602358, "city": "Chennai"},
+  {"empid": 908791, "addressType": "Office", "startDate": "22-JAN-2016", "street": "2nd Street", "postalCode": 800092, "city": "Bangalore"},
+  {"empid": 908792, "addressType": "Temporary", "startDate": "03-APR-2017", "street": "4th Street", "postalCode": 700084, "city": "Mumbai"}
+]
