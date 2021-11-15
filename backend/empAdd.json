@@ -1,0 +1,128 @@
+[
+  {
+    "empid": 908789,
+    "permanent": {
+      "type": "permanent",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    },
+    "home": {
+      "type": "home",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    },
+    "office": {
+      "type": "office",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    },
+    "temporary": {
+      "type": "temporary",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    }
+  },
+
+
+  {
+    "empid": 908790,
+    "permanent": {
+      "type": "permanent",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    },
+    "home": {
+      "type": "home",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    },
+    "office": {
+      "type": "office",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    },
+    "temporary": {
+      "type": "temporary",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    }
+  },
+
+  {
+    "empid": 908791,
+    "permanent": {
+      "type": "permanent",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    },
+    "home": {
+      "type": "home",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    },
+    "office": {
+      "type": "office",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    },
+    "temporary": {
+      "type": "temporary",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    }
+  },
+  {
+    "empid": 908792,
+    "permanent": {
+      "type": "permanent",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    },
+    "home": {
+      "type": "home",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    },
+    "office": {
+      "type": "office",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    },
+    "temporary": {
+      "type": "temporary",
+      "startDate": "11-OCT-2019",
+      "street": "1st Street",
+      "postalCode": 500084,
+      "city": "Hyderabad"
+    }
+  }]

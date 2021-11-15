@@ -1,0 +1,86 @@
+<div class="content" role="main">
+
+  <!-- Highlight Card -->
+  <!-- <div class="card highlight-card card-small">
+    <span>{{ title }} </span>
+  </div> -->
+
+  <!-- Resources -->
+  <!-- <section class="pad15 dashboardgidpanel"> -->
+    <div class="container">
+       <div class="row">
+          <div class="col-md-9">
+             <div class="bigbox_wrapshadow">
+                <div class="bigbox_header">
+                <h2 class="headingtxt">Employee Details</h2>
+                </div>
+                <br class="hidden-xs">
+                <div class="clearfix"></div>
+
+               <div class="form-group">
+                 <form #empForm="ngForm">
+                  <label class="control-label col-sm-4 col-md-3">Employee No</label>
+                  <input type="text" styleclass="form-control" property="phNo" styleid="phNo" name="empid"  [(ngModel)]="empid" required> &nbsp;
+                  <button class="btn btn-primary" type="sumbit" name="imageField" id="imageField" property="imageField" (click)="getEmpDetails(empForm)">Enter</button> &nbsp;
+                  <button class="btn btn-primary" type="sumbit" name="imageField" id="imageField" property="imageField">Clear</button>
+                 </form>
+               </div>
+               <span *ngIf="errorMessage != ''" style="color: red;">{{errorMessage}}</span>
+
+               <div class="clearfix"></div>
+               <br class="hidden-xs">
+               <div class="width80">
+               <div class="acc_detail">
+
+               <table id="example" class="table dataTable" cellpadding="0" cellspacing="0" width="100%" bgcolor="#FFFFFF">
+               <tbody><tr>
+               <td class="subheading">Employee ID</td>
+               <td class="subheading1">{{empDetails.empid}}</td>
+               <td class="subheading">Employee Name</td>
+               <td class="subheading1">{{empDetails.firstname}} {{empDetails.lastname}} </td>
+               </tr>
+               <tr>
+               <td class="subheading">Data of Joining</td>
+               <td class="subheading1">{{empDetails.doj}}</td>
+               <td class="subheading">Date of Separation</td>
+               <td class="subheading1">{{empDetails.dos}}</td>
+               </tr>
+               <tr>
+               <td class="subheading">Mobile No.</td>
+               <td class="subheading1">{{empDetails.mobile}}</td>
+               <td class="subheading">Email Id</td>
+               <td class="subheading1">{{empDetails.email}}</td>
+               </tr>
+               </tbody></table>
+               </div>
+
+               <br class="hidden-xs">
+               <div>
+                <button class="btn btn-primary" type="button">Basic Details</button>
+                <input class="btn btn-primary" type="button" value="Address" (click)="getAddress()">
+                <input class="btn btn-primary" type="button" value="Education">
+                <input class="btn btn-primary" type="button" value="Employement">
+                <input class="btn btn-primary" type="button" value="Life cycle">
+               </div>
+
+               <div>
+                 <table class="table">
+                   <tr>
+                      <th>S.NO</th>
+                      <th>Address Type</th>
+                      <th>Start Date</th>
+                      <th>Street & House No</th>
+                      <th>Postal Code</th>
+                      <th>City</th>
+                   </tr>
+                   <tr>
+                      <td> 1 </td>
+                      <td> Permenant </td>
+                      <td> 11-03-2021 </td>
+                      <td> 02-5-45 </td>
+                      <td> 500084 </td>
+                      <td> Hyderabad </td>
+                  </tr>
+                 </table>
+               </div>
+         </div>
