@@ -6,4 +6,5 @@ export interface Employee{
   dos: string;
   mobile: number;
   email: string;
+  Address: {}
 }

@@ -11,8 +11,11 @@ import { Employee } from '../employee.model';
 })
 export class EmpDetailsComponent implements OnInit {
   title = 'Empoloyee Details';
-  empid!: number;
+  empid!: string;
+
   empDetails = {} as Employee;
+  empAddress: any= [];
+
   errorMessage: string = '';
 
   constructor(private dataService: DataService) { }
@@ -22,11 +25,12 @@ export class EmpDetailsComponent implements OnInit {
 
   getEmpDetails(form: NgForm){
     console.log(form.value)
-    let empid = form.value.empid;
-    this.dataService.fetchEmployeeById(empid)
+    this.empid = form.value.empid;
+    this.dataService.fetchEmployeeById(this.empid)
     .subscribe( res => {
       this.empDetails = res;
       this.errorMessage = '';
+      this.empAddress =[];
       console.log(this.empDetails)
     }, err =>{
       this.errorMessage = 'Employee Details NOT found!'
@@ -35,6 +39,15 @@ export class EmpDetailsComponent implements OnInit {
 
   getAddress(){
 
+    this.dataService.getEmployeeAddress(this.empid)
+    .subscribe( res => {
+      this.empAddress.push(res.Address);
+      this.errorMessage = '';
+      this.empAddress = this.empAddress[0];
+      console.log(this.empAddress[0]);
+    }, err =>{
+      this.errorMessage = 'Employee Details NOT found!'
+    })
   }
 
 }

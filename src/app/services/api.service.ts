@@ -14,7 +14,7 @@ export class ApiService {
     return this.http.get<Employee>(this.API+`/empdetails/${empid}`);
   }
 
-  getEmployeeAddress(){
-    // return this.http.get();
+  getEmployeeAddress(empid: string){
+    return this.http.get<Employee>(this.API + `/empaddress/${empid}`);
   }
 }

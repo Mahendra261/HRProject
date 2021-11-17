@@ -22,12 +22,11 @@ app.get('/empdetails/:id', function (req, res) {
       for(let item in data){
         if(data[item].empid == id){
           res.send(data[item]);
-        }else{
-          res.json({
-            message: 'Employee details not found!'
-          })
         }
       }
+      res.json({
+        message: 'Employee details not found!'
+      })
 
     })
     .catch((err) => {
@@ -46,12 +45,11 @@ app.get('/empaddress/:id', function (req, res) {
       for(let item in data){
         if(data[item].empid == id){
           res.send(data[item]);
-        }else{
-          res.json({
-            message: 'Employee details not found!'
-          })
         }
       }
+      res.json({
+        message: 'Employee details not found!'
+      })
     })
     .catch((err) => {
       console.error(err);
